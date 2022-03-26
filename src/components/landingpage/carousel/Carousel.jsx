@@ -74,16 +74,16 @@ const Carousel = ()=>{
         }/>
         {
           images.map( (url,index)=>{
-            if(index == Src)
+            if(index === Src)
             {
               return(
-                <img key={index} src={images[Src]} className="active" />
+                <img alt="" key={index} src={images[Src]} className="active" />
               );
             }
             else
             {
               return(
-                <img key={index} src={images[Src]} className="disabled" />
+                <img alt="" key={index} src={images[Src]} className="disabled" />
               );
             }
           })

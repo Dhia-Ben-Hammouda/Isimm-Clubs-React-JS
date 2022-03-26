@@ -25,7 +25,7 @@ const Admins = ()=>{
           Clubs.map( (club,index)=>{
             return(
               <div key={index} className="club">
-                <img src={club.url} />
+                <img src={club.url} alt="club-img"/>
                 <div className="club-functions">
                   <IconContext.Provider value={ {color:"#333" , size:"2rem"}  }>
                     <div>

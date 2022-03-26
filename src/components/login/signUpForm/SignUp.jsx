@@ -83,7 +83,7 @@ const Form = () => {
           />
         </div>
 
-        <h3 className="response" style={{ color: "green" }}></h3>
+        <h3 className="response" style={{ color: "green" }}>_</h3>
         <button type="submit">Sign up</button>
       </IconContext.Provider>
     </form>

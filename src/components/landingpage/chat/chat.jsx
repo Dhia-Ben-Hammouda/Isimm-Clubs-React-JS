@@ -16,7 +16,7 @@ const Chat = () => {
 
   useEffect( ()=>{
     socket.emit("user-connected" , { user:User });
-  },[]);
+  });
 
   const submitHandler = (e)=>{
     e.preventDefault();

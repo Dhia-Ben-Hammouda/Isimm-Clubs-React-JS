@@ -33,7 +33,7 @@ const Navbar = ()=>{
   return(
     <nav>
       <div className="title">
-        <img src={img} style={ {width:"50px" , borderRadius:"10px"} }/>
+        <img alt="" src={img} style={ {width:"50px" , borderRadius:"10px"} }/>
         <h1>Gestion des clubs</h1>
       </div>
 
