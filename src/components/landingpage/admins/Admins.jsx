@@ -10,7 +10,7 @@ const Admins = ()=>{
 
   useEffect( ()=>{
 
-    axios.get("http://localhost:5000/clubs/findClubs")
+    axios.get("https://isimm-clubs.herokuapp.com/clubs/findClubs")
       .then( (response)=>{
         setClubs(response.data);
       })
