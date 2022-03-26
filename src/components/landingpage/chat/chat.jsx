@@ -5,7 +5,7 @@ import { FaArrowRight } from "react-icons/fa";
 import { IconContext } from "react-icons";
 
 
-const socket = io.connect("http://localhost:5000");
+const socket = io.connect("https://isimm-clubs.herokuapp.com");
 
 const Chat = () => {
   
