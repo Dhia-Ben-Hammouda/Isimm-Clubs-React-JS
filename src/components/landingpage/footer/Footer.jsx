@@ -15,15 +15,15 @@ const Footer = () => {
             <FaFacebook />
           </a>
 
-          <a href="https://www.linkedin.com/school/isimm/" target="_blank" rel="noreferrer">
+          <a href="https://www.linkedin.com/school/isimm/" target="_blank" rel="noopener noreferrer">
             <FaLinkedin />
           </a>
 
-          <a href="https://github.com/Dhia-Ben-Hammouda" target="_blank" rel="noreferrer">
+          <a href="https://github.com/Dhia-Ben-Hammouda" target="_blank" rel="noopener noreferrer">
             <FaGithub />
           </a>
 
-          <a href="https://www.youtube.com/channel/UCkM5tiG4nbR0ZkI6-sdFkDg" target="_blank" rel="noreferrer">
+          <a href="https://www.youtube.com/channel/UCkM5tiG4nbR0ZkI6-sdFkDg" target="_blank" rel="noopener noreferrer">
             <FaYoutube />
           </a>
         </IconContext.Provider>
