@@ -11,7 +11,7 @@ const Footer = () => {
 
       <div className="med">
         <IconContext.Provider value={{ color: "white", size: "2.5rem" }}>
-        <a href="https://www.facebook.com/ISIMM-Institut-Sup%C3%A9rieur-dInformatique-et-de-Math%C3%A9matiques-de-Monastir-105890621413094" target="_blank">
+        <a href="https://www.facebook.com/ISIMM-Institut-Sup%C3%A9rieur-dInformatique-et-de-Math%C3%A9matiques-de-Monastir-105890621413094">
             <FaFacebook />
           </a>
 
