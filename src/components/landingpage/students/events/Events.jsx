@@ -1,5 +1,4 @@
 import React from "react";
-import img from "../club_pictures/cpu_logo.png";
 import { useState } from "react";
 import { useEffect } from "react";
 import axios from "axios";
@@ -7,7 +6,6 @@ import axios from "axios";
 const Events = () => {
 
   const [events, setevents] = useState([]);
-  const clubs = ["mtc"];
 
   useEffect(() => {
 
@@ -25,7 +23,7 @@ const Events = () => {
           events.map((event, index, arr) => {
             return (
               <div key={index} className="event">
-                <img src={event.img} />
+                <img alt="" src={event.img} />
 
                 <div className="info">
                   <h3 style={ {color:"dodgerblue"} } className="event-name">{event.name}</h3>
