@@ -9,7 +9,7 @@ const Events = () => {
 
   useEffect(() => {
 
-    axios.get("http://localhost:5000/clubs/getEvents")
+    axios.get("https://isimm-clubs.herokuapp.com/clubs/getEvents")
       .then((response) => {
         setevents(response.data);
       })
